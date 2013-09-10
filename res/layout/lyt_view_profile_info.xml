@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@null">
+    
+    <include layout="@layout/lyt_view_profile_image"/>
+    
+	<LinearLayout
+	    android:orientation="vertical"
+	    style="@style/Layout.Box">
+	    <TextView
+			style="@style/Textview.Title"
+	   		android:text="@string/profile_description_developer_title"/>	    
+	    <TextView
+			style="@style/Textview.Description"
+	   		android:text="@string/profile_description_developer_description"/>
+	    
+	    <TextView
+	        android:layout_marginTop="10dp"
+			style="@style/Textview.Title"
+	   		android:text="@string/profile_description_agile_title"/>	    
+	    <TextView
+	        android:layout_marginBottom="5dp"
+			style="@style/Textview.Description"
+	   		android:text="@string/profile_description_agile_description"/> 
+	</LinearLayout>
+	
+	<include layout="@layout/lyt_view_profile_skills"/>	
+	
+	<LinearLayout
+	    android:orientation="vertical"
+	    style="@style/Layout.Box">
+	    <TextView
+			style="@style/Textview.Title"
+	   		android:text="@string/profile_description_experience_title"/>	    
+	    <TextView
+	        android:layout_marginBottom="5dp"
+			style="@style/Textview.Description"
+	   		android:text="@string/profile_description_experience_description"/> 
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_marginBottom="10dp"
+	    style="@style/Layout.Box">
+	    <TextView
+			style="@style/Textview.Title"
+	   		android:text="@string/profile_description_status_title"/>	    
+	    <TextView
+	        android:layout_marginBottom="5dp"
+			style="@style/Textview.Description"
+	   		android:text="@string/profile_description_status_description"/> 
+	</LinearLayout> 	
+</LinearLayout>

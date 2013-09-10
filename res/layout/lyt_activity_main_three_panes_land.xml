@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="true"
+    android:background="@null">
+    
+	<LinearLayout  
+	    android:layout_height="match_parent"
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+	    android:background="@null"
+	    android:orientation="vertical">
+	    
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/bg_gradient_light_blue"
+	        android:layout_marginLeft="15dp">
+		    <TextView
+				style="@style/Textview.Shadow.Title.Big"
+				android:text="@string/profile"/>
+	    </RelativeLayout>
+	    	        
+	    <fragment android:id="@+id/profile"
+	     	android:name="com.fernandocejas.mycv.ui.fragment.ProfileFragment"
+	      	android:layout_height="match_parent"
+	       	android:layout_width="match_parent"
+	       	android:layout_marginTop="5dp"
+	       	android:layout_marginRight="1dp" 
+	       	android:layout_marginLeft="3dp" 
+	       	android:layout_marginBottom="5dp"/>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_height="match_parent"
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+	    android:background="@null"
+	    android:orientation="vertical"> 
+	    
+   	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/bg_gradient_light_blue">
+		    <TextView
+				style="@style/Textview.Shadow.Title.Big"
+				android:text="@string/showcase"/>
+	    </RelativeLayout>
+
+	    <fragment android:id="@+id/showcase"
+	     	android:name="com.fernandocejas.mycv.ui.fragment.ShowcaseFragment"
+	      	android:layout_height="match_parent"
+	       	android:layout_width="match_parent"
+	       	android:layout_marginTop="5dp"
+	       	android:layout_marginBottom="5dp" />
+	</LinearLayout>
+    
+	<LinearLayout
+	    android:layout_height="match_parent"
+	    android:layout_width="0dp"
+	    android:layout_weight="1"
+	    android:background="@null"
+	    android:orientation="vertical">
+	    
+   	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/bg_gradient_light_blue"
+	        android:layout_marginRight="15dp">
+		    <TextView
+				style="@style/Textview.Shadow.Title.Big"
+				android:text="@string/social"/>
+	    </RelativeLayout>
+	    	           
+	    <fragment android:id="@+id/social" 
+	     	android:name="com.fernandocejas.mycv.ui.fragment.SocialFragment"
+	      	android:layout_height="match_parent"
+	       	android:layout_width="match_parent"
+		    android:layout_marginTop="5dp"
+	       	android:layout_marginRight="3dp" 
+	       	android:layout_marginLeft="1dp" 
+	       	android:layout_marginBottom="5dp"/>        
+	</LinearLayout>
+
+</LinearLayout>

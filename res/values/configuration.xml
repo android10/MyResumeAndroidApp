@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">my resume FC</string>  
+    <string name="app_icon">@drawable/ic_launcher</string>  
+    <string name="app_style">@style/Theme.DefaultLight</string>
+
+    <string name="my_name">Fernando Cejas</string>
+    <string name="phone_number">+34680190568</string>
+    <string name="email_address">fcejas@gmail.com</string>
+    <string name="web_address">http://www.fernandocejas.com/</string>
+    
+    <string name="my_social_twitter">http://twitter.com/#!/fernando_cejas</string>
+    <string name="my_social_linkedin">http://es.linkedin.com/in/fernandocejas </string>
+    <string name="my_social_skype">penanochizzo</string>
+    <string name="my_social_facebook">http://www.facebook.com/Penano</string>
+    <string name="my_social_googleplus">https://plus.google.com/u/0/113157061508283030086/posts</string>
+
+    <string name="my_showcase_gdg_url">http://barcelonagtug.blogspot.com.es/</string>
+    <string name="my_showcase_nfc_url">http://www.nfcquickactions.com/</string>
+    <string name="my_showcase_android10_url">http://www.android10.org/</string>
+    <string name="my_showcase_appcircus_url">http://www.youtube.com/watch?v=rlZL5RwGP2M</string>
+    <string name="my_showcase_appcircus_url_videoid">rlZL5RwGP2M</string>
+    <string name="my_showcase_smartphoneday_url">http://vimeo.com/24467756</string>
+    <string name="my_showcase_push_url">http://esp.bdigitalapps.com/programa/workshop-android?iframe=true</string>
+    <string name="my_showcase_scrum_url">http://www.youtube.com/watch?v=eD2RqQjxvvw</string>
+    <string name="my_showcase_scrum_url_videoid">eD2RqQjxvvw</string>
+    <string name="my_showcase_masterbranch_url">https://masterbranch.com/android10</string>
+    <string name="my_showcase_slideshare_url">http://www.slideshare.net/penano</string>
+    
+    <string name="resume_file_name">my_resume.pdf</string>
+    
+</resources>
+  

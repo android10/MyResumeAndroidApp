@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+   	<bool name="has_one_pane">true</bool>
+   	
+   	<item name="lyt_activity_main" type="layout">@layout/lyt_activity_main_one_pane_land</item>
+</resources> 

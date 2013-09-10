@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@null">
+    
+    <include layout="@layout/lyt_view_profile_showcase_gdg"/>
+    <include layout="@layout/lyt_view_profile_showcase_nfc"/>
+    <include layout="@layout/lyt_view_profile_showcase_android10"/>
+    <include layout="@layout/lyt_view_profile_showcase_appcircus"/>
+    <include layout="@layout/lyt_view_profile_showcase_smartphoneday"/>
+    <include layout="@layout/lyt_view_profile_showcase_push"/>
+    <include layout="@layout/lyt_view_profile_showcase_scrum"/>
+    <include layout="@layout/lyt_view_profile_showcase_masterbranch"/>
+    <include layout="@layout/lyt_view_profile_showcase_slideshare"/>
+    
+</LinearLayout>

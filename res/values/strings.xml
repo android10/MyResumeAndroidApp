@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="profile">PROFILE</string>
+	<string name="showcase">SHOWCASE</string>
+	<string name="social">SOCIAL</string>
+
+	<string name="call">call</string>
+	<string name="mail">mail</string>
+	<string name="pdf">view PDF</string>
+
+	<string name="use">My use</string>
+	<string name="other_data_title">Other data</string>
+	<string name="other_data_description">You can also contact and find me in other
+		social networks such as: Pinterest, Instagram,
+		Path, GetGlue and Tumblr. Here is my skype
+		username: penanochizzo.
+	</string>
+
+	<string name="social_networks_twitter">Twitter</string>
+	<string name="social_networks_linkedin">Linkedin</string>
+	<string name="social_networks_skype">Skype</string>
+	<string name="social_networks_facebook">Facebook</string>
+	<string name="social_networks_googleplus">Google+</string>
+	<string name="social_networks_twitter_use">- Twitter</string>
+	<string name="social_networks_linkedin_use">- Linkedin</string>
+	<string name="social_networks_skype_use">- Skype</string>
+	<string name="social_networks_facebook_use">- Facebook</string>
+	<string name="social_networks_googleplus_use">- Google+</string>
+
+	<string name="social_networks_msg_skype">my skype is:</string>
+	<string name="social_networks_msg_follow_title">Follow me!</string>
+	<string name="social_networks_msg_follow_description">These are the most important social networks
+		I am using at the moment.
+		Feel free to contact or follow.
+	</string>
+
+	<string name="send_email">send email</string>
+
+	<string name="showcase_gdg_title">GDG Barcelona Leader</string>
+	<string name="showcase_gdg_description">Google Developer Groups (GDGs - ex GTUGs) are for developers who
+		are interested in Google\'s developer technology; such as Android,
+		App Engine, Google Chrome, etc. Here I am organizing and leading
+		different developers events around Barcelona.
+	</string>
+
+	<string name="showcase_nfc_title">NFC Quick Actions</string>
+	<string name="showcase_nfc_description">Creator of the android app based on NFC Technology. This application
+		lets you program an NFC tag to do “something”, such as send an email,
+		open a url, checkin with foursquare, etc. Once your tag has a quick
+		action “inside” it, you just get your android device close to it and
+		that action is executed.
+	</string>
+
+	<string name="showcase_android10_title">android10 Community</string>
+	<string name="showcase_android10_description">Creator of the android10 community (android10.org). This is an
+		open community joined with common goals: to learn, to teach and
+		to have fun with Google Android.
+	</string>
+
+	<string name="showcase_appcircus_title">AppCircus Finalist</string>
+	<string name="showcase_appcircus_description">I was finalist at Barcelona AppCircus 2011 with the android
+		application: NFC Quick Actions. This event is a unique global
+		traveling showcase of the most creative and innovative apps
+		presented by their creators during some of the most influential
+		international events in mobile.
+	</string>
+
+	<string name="showcase_smartphoneday_title">The Smartphone Day</string>
+	<string name="showcase_smartphoneday_description">Genmob The Smartphone Day is a congress based on technology
+		where you can find conferences, networking, showcases and a
+		lot of stuff related with the mobile world. I had the chance
+		to participate as speaker giving an Introduction to Android
+		Development as a topic.
+	</string>
+
+	<string name="showcase_push_title">Push Notifications</string>
+	<string name="showcase_push_description">Bdigital Apps ia a congress specialised in mobile applications for
+		developers and companies. It is organized by Barcelona Digital
+		Technology Centre. In 2011 I had the chance to give a speech related
+		with Android Push Notifications.
+	</string>
+
+	<string name="showcase_scrum_title">Scrum Coaching</string>
+	<string name="showcase_scrum_description">I am a person who leads by example rather than by dictate and I like
+		to bring out the best in people, that\'s why I speak and help people
+		and companies implement agile methodologies such as scrum.
+	</string>
+
+	<string name="showcase_masterbranch_title">Masterbranch</string>
+	<string name="showcase_masterbranch_description">I do like open source and I am a participant in communities.
+		This is my masterbranch profile where you can check some of
+		my open source project with their source code.
+	</string>
+
+	<string name="showcase_slideshare_title">Slideshares</string>
+	<string name="showcase_slideshare_description">SlideShare is the best way to share presentations, documents
+		and professional videos. Check out the material I use for events
+		and speech.
+	</string>
+
+
+	<string name="profile_description_developer_title">Software Developer</string>
+	<string name="profile_description_developer_description">Experienced in backend and mobile software development
+		using
+		languages such as Java and C# applying best practices and last
+		technologies.
+	</string>
+
+	<string name="profile_description_agile_title">Agile Coach</string>
+	<string name="profile_description_agile_description">Help teams or individuals to adopt and improve agile methods
+		and
+		practice, making them rethink and change the way they go about
+		development.
+	</string>
+
+	<string name="profile_description_skills_title">My Skills</string>
+	<string name="profile_description_skills_title_java">- Java Language</string>
+	<string name="profile_description_skills_title_android">- Android Platform</string>
+	<string name="profile_description_skills_title_nfc">- NFC/RFID</string>
+	<string name="profile_description_skills_title_tdd">- TDD</string>
+	<string name="profile_description_skills_title_agile">- Scrum</string>
+
+	<string name="profile_description_experience_title">Experience</string>
+	<string name="profile_description_experience_description">I had been working as a Software Architect for Aifos
+		Solutions,
+		an RFID Company where I developed some products based on RFID
+		technology. Also I worked for a mobile company doing android
+		stuff for Bank and Financial Entities and coaching the development
+		Team using agile methologies. At fastDove (Push Notifications
+		Company), I was the CTO, taking the responsability of establishing
+		the Company\’s Technical Vision.
+	</string>
+
+	<string name="profile_description_status_title">Status</string>
+	<string name="profile_description_status_description">Now a days I am working as CTO at Mobile Development Software
+		Company and organizing the Google Developers Group (GDG) in
+		Barcelona.
+	</string>
+
+	<!-- GENERAL EXCEPTIONS MESSAGES -->
+	<string name="exception_message_external_storage_access">Cannot access the external storage of the device.</string>
+	<string name="exception_message_no_application_available">No application available to view this file type.</string>
+
+	<!-- CUSTOM EXCEPTIONS MESSAGES -->
+	<string name="exception_message_pdf_opening_error">There was an error opening the resume.</string>
+</resources>

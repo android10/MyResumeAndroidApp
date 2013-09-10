@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="font_text_regular_text" type="dimen">@dimen/font_text_regular_text_tablet</item>
+    <item name="font_text_regular_title" type="dimen">@dimen/font_text_regular_title_tablet</item>
+    
+    <item name="font_title_small" type="dimen">@dimen/font_title_small_tablet</item>
+    <item name="font_title_medium" type="dimen">@dimen/font_title_medium_tablet</item>
+    <item name="font_title_big" type="dimen">@dimen/font_title_big_tablet</item>
+</resources>

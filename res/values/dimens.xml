@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- For phones  -->
+    <dimen name="font_text_regular_text">14sp</dimen>
+    <dimen name="font_text_regular_title">15sp</dimen>
+    
+    <dimen name="font_title_small">22sp</dimen>
+    <dimen name="font_title_medium">24sp</dimen>
+    <dimen name="font_title_big">36sp</dimen>
+    
+    <!-- For tablets  -->
+    <dimen name="font_text_regular_text_tablet">18sp</dimen>
+    <dimen name="font_text_regular_title_tablet">19sp</dimen>
+    
+    <dimen name="font_title_small_tablet">26sp</dimen>
+    <dimen name="font_title_medium_tablet">28sp</dimen>
+    <dimen name="font_title_big_tablet">40sp</dimen>     
+</resources>

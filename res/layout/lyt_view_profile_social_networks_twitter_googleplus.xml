@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout         
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+    android:background="@null">
+    
+	<RelativeLayout
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginLeft="8dp"
+	    android:layout_marginRight="3dp"
+	    android:layout_marginBottom="1dp" 
+	    android:background="@drawable/box"
+	    android:layout_weight="1">
+	    
+	    <LinearLayout
+	        android:id="@id/twitter"
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:background="@drawable/btn_social_selector" 
+	        android:orientation="vertical"
+	        android:paddingBottom="4dp"
+	        android:paddingTop="4dp" >
+	
+		    <ImageView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"  
+		        android:src="@drawable/ic_social_twitter_v2"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginBottom="2dp" />
+		    
+	       	<TextView
+	            style="@style/Textview.Shadow.Title.Medium"  
+	            android:gravity="center"
+	            android:text="@string/social_networks_twitter" />
+	
+	        </LinearLayout>
+	</RelativeLayout>    
+	    
+	<RelativeLayout
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginLeft="3dp"
+	    android:layout_marginRight="8dp"
+	    android:layout_marginBottom="1dp" 
+	    android:background="@drawable/box"
+	    android:layout_weight="1">
+	    
+	    <LinearLayout
+	        android:id="@id/googleplus"
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:background="@drawable/btn_social_selector" 
+	        android:orientation="vertical"
+	        android:paddingBottom="4dp"
+	        android:paddingTop="4dp" >
+	
+		    <ImageView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:src="@drawable/ic_social_googleplus_v2"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginBottom="2dp" />
+		    
+	       	<TextView
+	            style="@style/Textview.Shadow.Title.Medium"  
+	            android:gravity="center"
+	            android:text="@string/social_networks_googleplus" />
+	
+	        </LinearLayout>
+	</RelativeLayout>
+
+</LinearLayout>

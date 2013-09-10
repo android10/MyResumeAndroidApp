@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shadow">#FF000000</color>
+    
+    <color name="transparent">#00000000</color>
+    
+    <color name="black">#000</color>
+    <color name="black_transparent">#11000000</color>
+    <color name="black_semitransparent_level_one">#77000000</color>
+    <color name="black_semitransparent_level_two">#92000000</color>
+    <color name="black_semitransparent_level_three">#08000000</color>
+    <color name="black_semitransparent_level_four">#7000</color>
+    
+    <color name="white">#FFF</color>
+    <color name="white_semitransparent_level_one">#55FFFFFF</color>
+    <color name="white_semitransparent_level_two">#92FFFFFF</color>
+    
+    <color name="grey">#CCC</color>
+    <color name="grey_semitransparent_level_one">#90CCCCCC</color>
+    <color name="grey_semitransparent_level_two">#60CCCCCC</color>
+    
+    <color name="button_light_blue_level_one">#38beea</color>
+    <color name="button_light_blue_level_two">#9038beea</color>
+    <color name="button_light_blue_level_three">#402abbea</color>  
+
+    
+</resources>

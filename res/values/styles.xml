@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- LAYOUTS STYLES -->
+    <style name="Style.Layout.Custom.Background" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        
+    	<item name="android:layout_marginTop">8dp</item>
+    	<item name="android:layout_marginLeft">10dp</item>
+    	<item name="android:layout_marginRight">10dp</item>
+    	<item name="android:layout_marginBottom">2dp</item>
+    	
+    	<item name="android:shadowColor">@color/shadow</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.8</item>
+        
+        <item name="android:background">@null</item>
+    </style>        
+    
+	<style name="Layout.Postit.Blue" parent="Style.Layout.Custom.Background">
+	    <item name="android:background">@drawable/img_postit_blue</item>
+	</style>
+	
+	<style name="Layout.Postit.Green" parent="Style.Layout.Custom.Background">
+	    <item name="android:background">@drawable/img_postit_green</item>
+	</style>
+	
+	<style name="Layout.Postit.Yelow" parent="Style.Layout.Custom.Background">
+	    <item name="android:background">@drawable/img_postit_yellow</item>
+	</style>
+	
+	<style name="Layout.Postit.Orange" parent="Style.Layout.Custom.Background">
+	    <item name="android:background">@drawable/img_postit_orange</item>
+	</style>
+	
+	<style name="Layout.Box" parent="Style.Layout.Custom.Background">
+	    <item name="android:background">@drawable/box</item>
+	</style>
+	
+	<!-- TEXTVIEW STYLES -->
+	<style name="StyleTextviewCommon">
+	    <item name="android:layout_width">match_parent</item> 
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:scrollHorizontally">false</item>
+	    <item name="android:textSize">@dimen/font_text_regular_text</item>
+	</style>
+	
+	<style name="Textview.Title" parent="StyleTextviewCommon">
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textSize">@dimen/font_text_regular_title</item>
+ 	</style> 
+	
+	<style name="Textview.Description" parent="StyleTextviewCommon"> 
+	</style>
+
+	<style name="Textview.Shadow.Title.Big" parent="StyleTextviewCommon">
+		<item name="android:gravity">center</item>
+		<item name="android:shadowColor">@color/black</item>
+		<item name="android:shadowDx">3</item>
+		<item name="android:shadowDy">3</item>
+		<item name="android:shadowRadius">6</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">@dimen/font_title_big</item>
+		<item name="android:textStyle">bold</item>			    
+	</style>
+	
+	<style name="Textview.Shadow.Title.Medium" parent="Textview.Shadow.Title.Big">
+	    <item name="android:textSize">@dimen/font_title_medium</item> 
+	</style>
+	
+	<style name="Textview.Shadow.Title.Small" parent="Textview.Shadow.Title.Big">
+	    <item name="android:textSize">@dimen/font_title_small</item> 
+	</style>	
+		
+</resources>

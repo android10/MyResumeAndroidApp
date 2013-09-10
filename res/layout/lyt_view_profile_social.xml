@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@null">
+    
+    <include layout="@layout/lyt_view_profile_social_networks_intro"/>
+    <include layout="@layout/lyt_view_profile_social_networks_twitter_googleplus"/>
+    <include layout="@layout/lyt_view_profile_social_networks_facebook_linkedin"/>
+    <include layout="@layout/lyt_view_profile_social_networks_use"/>
+    
+</LinearLayout>

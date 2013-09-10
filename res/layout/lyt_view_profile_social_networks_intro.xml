@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="1dp" 
+    android:background="@drawable/box">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+        
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="3dp"
+        	android:layout_marginBottom="3dp"
+	        android:background="@drawable/bg_gradient_light_blue_light" 
+	        android:orientation="vertical" >        
+	        <TextView
+	            style="@style/Textview.Shadow.Title.Medium"
+	            android:gravity="center"
+	            android:text="@string/social_networks_msg_follow_title" />
+	    </LinearLayout>
+
+        <ImageView
+            android:padding="5dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:src="@drawable/ic_social" />
+        
+        <TextView 
+			style="@style/Textview.Description"
+            android:text="@string/social_networks_msg_follow_description"/> 
+        
+    </LinearLayout>
+</RelativeLayout>

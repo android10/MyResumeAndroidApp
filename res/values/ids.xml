@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="id" name="lyt_base_container"/>
+
+	<!-- Social Networks -->
+	<item type="id" name="twitter"/>
+	<item type="id" name="linkedin"/>
+	<item type="id" name="skype"/>
+	<item type="id" name="facebook"/>
+	<item type="id" name="googleplus"/>
+
+	<!-- Showcase -->
+	<item type="id" name="gdg"/>
+	<item type="id" name="nfc"/>
+	<item type="id" name="android10"/>
+	<item type="id" name="appcircus"/>
+	<item type="id" name="smartphoneday"/>
+	<item type="id" name="push"/>
+	<item type="id" name="scrum"/>
+	<item type="id" name="masterbranch"/>
+	<item type="id" name="slideshare"/>
+</resources>
