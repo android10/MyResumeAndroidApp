@@ -25,6 +25,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
+/**
+ * The android10 coder: http://www.android10.org/
+ * @author Fernando Cejas <http://fernandocejas.com/>
+ */
 public class MyCVMainActivity extends BaseActivity implements OnSocialNetworkChosenListener, OnShowcaseChosenListener {
 	
 	private static final String LOG_TAG = MyCVMainActivity.class.getSimpleName();
@@ -98,6 +102,11 @@ public class MyCVMainActivity extends BaseActivity implements OnSocialNetworkCho
     	return super.onOptionsItemSelected(item);
 	}
 
+	/**
+	 * Load tabs that belong to this Activity
+	 *
+	 * @param savedInstanceState {@link Bundle}
+	 */
 	private void loadTabs(Bundle savedInstanceState) {  
         mTabHost = (TabHost)findViewById(android.R.id.tabhost);
         mTabHost.setup(); 
@@ -113,13 +122,16 @@ public class MyCVMainActivity extends BaseActivity implements OnSocialNetworkCho
             mTabHost.setCurrentTabByTag(savedInstanceState.getString("tab"));
         }
     }
-	
+
+	/**
+	 * Opens a PDF file
+	 */
 	private void openPDF() {
 		try {
-			String pdfFileName = getString(R.string.resume_file_name);
-			String pdfFilePath = FileUtils.getExternalStorageDir() + pdfFileName;
+			final String pdfFileName = getString(R.string.resume_file_name);
+			final String pdfFilePath = FileUtils.getExternalStorageDir() + pdfFileName;
 			
-			File pdfFile = new File(pdfFilePath);
+			final File pdfFile = new File(pdfFilePath);
 			if (!pdfFile.exists()) {
 				if (FileUtils.isExternalStorageAvailableReadWrite()) {
 					

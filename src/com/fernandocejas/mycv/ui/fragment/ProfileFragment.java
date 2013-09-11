@@ -5,9 +5,12 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.fernandocejas.mycv.R;
 
+/**
+ * The android10 coder: http://www.android10.org/
+ * @author Fernando Cejas <http://fernandocejas.com/>
+ */
 public final class ProfileFragment extends BaseFragment {
 	
 	private View mView;

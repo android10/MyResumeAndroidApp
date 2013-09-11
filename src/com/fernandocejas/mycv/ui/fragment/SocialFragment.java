@@ -7,9 +7,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-
 import com.fernandocejas.mycv.R;
 
+/**
+ * The android10 coder: http://www.android10.org/
+ * @author Fernando Cejas <http://fernandocejas.com/>
+ */
 public final class SocialFragment extends BaseFragment {
 	
 	public interface OnSocialNetworkChosenListener {

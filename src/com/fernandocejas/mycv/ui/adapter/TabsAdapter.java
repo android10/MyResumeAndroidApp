@@ -28,9 +28,13 @@ import android.widget.TabWidget;
 
 import java.util.ArrayList;
 
+/**
+ * The android10 coder: http://www.android10.org/
+ * @author Fernando Cejas <http://fernandocejas.com/>
+ */
+public class TabsAdapter extends FragmentPagerAdapter implements TabHost.OnTabChangeListener,
+		ViewPager.OnPageChangeListener {
 
-public class TabsAdapter extends FragmentPagerAdapter
-implements TabHost.OnTabChangeListener, ViewPager.OnPageChangeListener {
     private final Context mContext;
     private final TabHost mTabHost;
     private final ViewPager mViewPager;

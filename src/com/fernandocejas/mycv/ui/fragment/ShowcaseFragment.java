@@ -9,6 +9,10 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import com.fernandocejas.mycv.R;
 
+/**
+ * The android10 coder: http://www.android10.org/
+ * @author Fernando Cejas <http://fernandocejas.com/>
+ */
 public final class ShowcaseFragment extends BaseFragment {
 	
 	public interface OnShowcaseChosenListener {
