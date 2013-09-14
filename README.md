@@ -3,6 +3,8 @@ MyResumeAndroidApp
 
 This application is basically an Android "my Resume" App. Used mainly for CV for example.
 
+![http://www.android10.org/myimages/myresume.png](http://www.android10.org/myimages/myresume.png)
+
 Check the wiki main page for more details:
 https://github.com/android10/MyResumeAndroidApp/wiki
 
