@@ -3,6 +3,9 @@ MyResumeAndroidApp
 
 This application is basically an Android "my Resume" App. Used mainly for CV for example.
 
+Check the wiki main page for more details:
+https://github.com/android10/MyResumeAndroidApp/wiki
+
 
 Here is the link to Google Play to take a look at it:
 https://play.google.com/store/apps/details?id=com.fernandocejas.mycv
